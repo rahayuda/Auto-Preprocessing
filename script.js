@@ -23,7 +23,7 @@ const kataTempat = [];
 
 frasaSkor3.forEach(frasa => {
   jenisTempat.forEach(jenis => {
-    kataTempat.push({ kata: `${frasa} ${jenis}`, skor: 4 });
+    kataTempat.push({ kata: `${frasa} ${jenis}`, skor: 10 });
   });
 });
 
