@@ -16,6 +16,10 @@ hr {
   margin-bottom: 5px;
 }
 
+h1 {
+ font-size: 18px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
