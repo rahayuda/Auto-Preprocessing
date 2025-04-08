@@ -67,7 +67,7 @@ function tampilkanArtikel() {
     </div>`;
 
     outputSemua.innerHTML += html;
-    if (a.tipe === "Other") {
+    if (a.tipe === "Place") {
       outputTempat.innerHTML += html;
     }
   });
@@ -90,7 +90,7 @@ function saveToJSON() {
 }
 
 function saveTempatToJSON() {
-  const artikelList = getData().filter(a => a.tipe === "Other");
+  const artikelList = getData().filter(a => a.tipe === "Place");
   if (artikelList.length === 0) {
     alert("Storage Empty");
     return;
