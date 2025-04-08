@@ -32,7 +32,7 @@ async function getWikipedia() {
     title: data.title,
     summary: data.extract,
     url: data.content_urls.desktop.page,
-    tipe: tipeTempat ? "Tempat" : "Bukan Tempat"
+    tipe: tipeTempat ? "Place" : "Other"
   };
 
   const artikelList = getData();
@@ -67,7 +67,7 @@ function tampilkanArtikel() {
     </div>`;
 
     outputSemua.innerHTML += html;
-    if (a.tipe === "Tempat") {
+    if (a.tipe === "Other") {
       outputTempat.innerHTML += html;
     }
   });
@@ -90,7 +90,7 @@ function saveToJSON() {
 }
 
 function saveTempatToJSON() {
-  const artikelList = getData().filter(a => a.tipe === "Tempat");
+  const artikelList = getData().filter(a => a.tipe === "Other");
   if (artikelList.length === 0) {
     alert("Storage Empty");
     return;
