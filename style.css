@@ -60,7 +60,7 @@ main {
   width: 10%;
   margin: 3px;
   border: solid 1px #DCF2F1;
-  padding: 5px;
+  padding: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   min-height: 630px;
 }
@@ -71,7 +71,7 @@ main {
   width: 45%;
   margin: 3px;
   border: solid 1px #DCF2F1;
-  padding: 5px;
+  padding: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
   min-height: 630px;
 }
