@@ -11,8 +11,8 @@ function simpanData(data) {
 
 function isTempat(text) {
   const kataTempat = [
-  "tempat", "provinsi", "adalah sebuah kota", "kabupaten", "desa",
-  "pulau", "benua", "negara", "kecamatan", "wilayah"
+  "adalah sebuah tempat", "adalah sebuah provinsi", "adalah sebuah kota", "adalah sebuah kabupaten", "adalah sebuah desa",
+  "adalah sebuah pulau", "adalah sebuah benua", "adalah sebuah negara", "adalah sebuah kecamatan", "adalah sebuah wilayah"
   ];
   for (let kata of kataTempat) {
     if (text.toLowerCase().includes(kata)) {
