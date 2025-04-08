@@ -12,18 +12,18 @@ function simpanData(data) {
 // ===== Bagian Baru: Kata dan Skor Tempat =====
 const jenisTempat = [
   "kota", "kabupaten", "kecamatan", "provinsi", "desa", 
-  "pulau", "benua", "negara", "wilayah", "tempat"
+  "pulau", "benua", "negara", "wilayah", "tempat", "ibukota"
 ];
 
-const frasaSkor3 = ["adalah sebuah", "adalah salah satu", "adalah ibukota"];
-const frasaSkor2 = ["merupakan", "terletak di", "berada di"];
+const frasaSkor3 = ["adalah sebuah", "adalah salah satu", "adalah", "merupakan"];
+const frasaSkor2 = ["terletak di", "berada di"];
 
 // Auto-generate array kataTempat dengan skor
 const kataTempat = [];
 
 frasaSkor3.forEach(frasa => {
   jenisTempat.forEach(jenis => {
-    kataTempat.push({ kata: `${frasa} ${jenis}`, skor: 3 });
+    kataTempat.push({ kata: `${frasa} ${jenis}`, skor: 4 });
   });
 });
 
