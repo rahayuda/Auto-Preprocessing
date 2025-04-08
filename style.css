@@ -151,7 +151,7 @@ button {
     flex-direction: column;
   }
   .card, button {
-    width: 48.5%;
+    width: 48%;
   }
   .bar {
     order: 0;
