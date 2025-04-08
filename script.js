@@ -52,8 +52,8 @@ function tampilkanArtikel() {
   outputTempat.innerHTML = "";
 
   artikelList.forEach(a => {
-    const truncatedSummary = a.summary.length > 100 
-    ? a.summary.slice(0, 100) + "..." 
+    const truncatedSummary = a.summary.length > 90 
+    ? a.summary.slice(0, 90) + "..." 
     : a.summary;
 
     const html = `<div class="card">
