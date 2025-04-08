@@ -15,7 +15,7 @@ const jenisTempat = [
   "pulau", "benua", "negara", "wilayah", "tempat", "ibukota"
 ];
 
-const frasaSkor3 = ["adalah sebuah", "adalah salah satu", "adalah", "merupakan"];
+const frasaSkor3 = ["adalah sebuah", "adalah salah satu", "adalah nama", "adalah", "merupakan sebuah", "merupakan salah satu", "merupakan nama", "merupakan"];
 const frasaSkor2 = ["terletak di", "berada di"];
 
 // Auto-generate array kataTempat dengan skor
