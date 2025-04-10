@@ -12,7 +12,7 @@ function simpanData(data) {
 // ===== Bagian Baru: Kata dan Skor Tempat =====
 const jenisTempat = [
   "kota", "kabupaten", "kecamatan", "provinsi", "desa", 
-  "pulau", "benua", "negara", "wilayah", "tempat", "ibukota",
+  "pulau", "benua", "negara", "wilayah", "tempat", "ibu kota",
   "gunung", "sungai", "danau", "hutan", "taman", 
   "stasiun", "bandara", "pelabuhan", "planet", "galaksi", 
   "terminal", "jalan", "pasar", "gedung", "universitas", 
