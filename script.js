@@ -12,7 +12,11 @@ function simpanData(data) {
 // ===== Bagian Baru: Kata dan Skor Tempat =====
 const jenisTempat = [
   "kota", "kabupaten", "kecamatan", "provinsi", "desa", 
-  "pulau", "benua", "negara", "wilayah", "tempat", "ibukota"
+  "pulau", "benua", "negara", "wilayah", "tempat", "ibukota",
+  "gunung", "sungai", "danau", "hutan", "taman", 
+  "stasiun", "bandara", "pelabuhan", "planet", "galaksi", 
+  "terminal", "jalan", "pasar", "gedung", "universitas", 
+  "museum", "candi", "kuil", "monumen", "kebun binatang"
 ];
 
 const frasaSkor3 = ["adalah sebuah", "adalah salah satu", "adalah nama", "adalah", "merupakan sebuah", "merupakan salah satu", "merupakan nama", "merupakan"];
